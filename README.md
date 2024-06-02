@@ -9,8 +9,8 @@ This application is built using the Laravel Framework.
 ## Development
 
     cd team-rancher
-    ./vendor/bin/sail up
     ./vendor/bin/sail composer update
     ./vendor/bin/sail artisan migrate
+    ./vendor/bin/sail up
 
 You can access the application in your web browser at: [http://localhost](http://localhost).
